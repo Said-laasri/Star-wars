@@ -48,3 +48,38 @@ h1 {
   box-shadow: 2px 4px 3px 1px #e2439bf5;
   transition: box-shadow 2s ease-in-out;
 }
+
+.film-popup {
+  display: grid;
+  grid-template-columns: auto auto;
+  position: fixed;
+  top: 0;
+  gap: 5px;
+  bottom: 0;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  background-color: rgb(4, 50, 109, 0.8);
+  backdrop-filter: blur(5px);
+}
+
+.popUp {
+  position: relative;
+  padding: 10px;
+  margin: 40px;
+  color: #f1f1f1;
+}
+
+.exit {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  font-size: 2rem;
+  color: #f1f1f1;
+  cursor: pointer;
+}
+
+.film-title {
+  font-size: 1rem;
+  font-weight: bold;
+  text-decoration: underline;
+}
